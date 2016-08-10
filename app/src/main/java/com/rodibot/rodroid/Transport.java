@@ -32,9 +32,10 @@ public class Transport {
     private static final RetryPolicy RETRY_POLICY = new DefaultRetryPolicy(400, 0,
             DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
 
-    private static final String HOSTNAME = "192.168.4.1";
-
+    private static final String HOSTNAME = "192.168.4.1";     //Robot
+    //private static final String HOSTNAME = "192.168.0.8";       //Local
     private static final String PORT = "1234";
+
 
     private enum Commands {
         BLINK(1), SENSE(2), MOVE(3), SING(4), SEE(5),
