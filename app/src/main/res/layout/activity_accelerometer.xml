@@ -9,39 +9,38 @@
     
     <ImageView
         android:id="@+id/left"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/circle"
-        android:layout_marginTop="115dp"
-        android:layout_marginLeft="40dp"
-        />
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/left"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="55dp"/>
 
 
     <ImageView
         android:id="@+id/right"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/circle"
-        android:layout_marginTop="115dp"
-        android:layout_marginLeft="280dp"/>
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/right"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="290dp"/>
 
 
     <ImageView
         android:id="@+id/top"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/circle"
-        android:layout_marginTop="275dp"
-        android:layout_marginLeft="170dp"/>
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/top"
+        android:layout_marginTop="290dp"
+        android:layout_centerHorizontal="true"/>
 
 
     <ImageView
         android:id="@+id/down"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/circle"
-        android:layout_marginTop="430dp"
-        android:layout_marginLeft="170dp"/>
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/down"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"/>
     
     <Button
         android:id="@+id/stop"
